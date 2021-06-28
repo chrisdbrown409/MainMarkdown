@@ -1,7 +1,11 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-US" dir="ltr">
+
 <head>
-  <Title> "Markdown" </Title>
+	<meta charset="utf-8">
+	<meta name="viewport" 		content="width=device-width, initial-scale=1.0">
+	<meta name="description" 	content="Chris Brown | Quality Assurance"> <!---Web Searches--->
+	<Title>Chris Brown | Markdown</Title>
 
 
 <!---Ref: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible--->
@@ -10,7 +14,7 @@
 .collapsible {
   	background-color: #45B39D;
 	height: 10%; /*reactive*/
-	margin-left: 40px;
+	/*margin-left: 14%; controlled by main class*/
   	color: white;
   	cursor: pointer;
   	/*padding: 18px; /*non-reactive*/
@@ -29,7 +33,7 @@
 
 .collapsible:after {
   	content: '\002B'; /* Unicode character for "plus" sign (+) */
-  	margin-left: 40px;
+  	/*margin-left: 14%; controlled by main class*/
   	color: white;
   	font-weight: bold;
   	float: right;
@@ -44,7 +48,7 @@
 .content {
   	padding: 0 18px;
 	width: 80%; 
-  	margin-left: 40px;
+  	/*margin-left: 14%; controlled by main class*/
  	max-height: 0;
   	overflow: hidden;
   	transition: max-height 0.2s ease-out;
@@ -118,9 +122,11 @@ body, html {
 
 .main {
   	/*margin-left: 140px; /* Same width as the sidebar + left position in px */
-	margin-left: 11%; /* Same width as the sidebar + left position in px */ /*reponsive*/
-  	/*font-size: 28px; /* Increased text to enable scrolling */
-  	padding: 0px 10px;
+	padding: 0px 10px;
+	font-style:normal;
+	/*margin-left: 40px;*/
+	margin-left: 17%; /* Same width as the sidebar + left position in px */ /*reponsive*/
+	font-family: times,serif;
 }
 
 @media screen and (max-height: 450px) {
@@ -131,7 +137,7 @@ body, html {
  footer {
 	/*position: Fixed; this makes it sticky always at the bottom of the page*/
 	/*margin-left: 40px;*/
-	margin-left: 4%; /*reponsive*/
+	/*margin-left: 4%; controlled by main class*/
 	width: 100%;
 	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
 	left: 0;
@@ -155,7 +161,7 @@ body, html {
 
 <div class="hero-image">
   <div class="hero-text">
-    <h3 style="font-size:25px">Markdown</h3>
+    <h1 style="font-size:25px">Markdown</h1>
   </div>
 </div>
 <HR>
@@ -163,7 +169,7 @@ body, html {
   
   
 <div class="sidenav">
-    	<p style="font-family: times,serif; font-size:12pt; text-align: left; font-style:normal"> <U>Links</U></P><br />
+    	<p style="font-size:12pt;"><U>Links</U></P>
     	<a href="https://chrisdbrown409.github.io/MainPage/">Home</a><br />
     	<a href="https://github.com/chrisdbrown409">GIT Hub Root</a><br />
     	<a href="https://github.com/chrisdbrown409/MainMarkdown/blob/main/index.html">GIT Hub Repository</a><br />
@@ -178,15 +184,10 @@ body, html {
    
 <div class="main">
 <div>
-<p style="font-family: times,serif; font-size:14pt; font-style:normal;margin-left: 40px"> <!---in line comments--->
-Markdown<br />
-	</p>
-	<p style="font-family: times, serif; font-size:12pt; font-style:normal"> <!---in line comments--->
-	<blockquote>
+	<h2 style="font-size:14pt;">Markdown</h2>
 	The below sections discuss information regarding the Markdown Coding language. Markdown while similiar to HTML (Hyper Text Markup Language), Markdown is much simpler but more limited than HTML.<br />
 	<br />
 	Each section expands and explores the topics within the section.<br />
-	</blockquote>
 	</p>
 </div>
 
